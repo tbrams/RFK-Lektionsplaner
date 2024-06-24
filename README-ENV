@@ -1,0 +1,15 @@
+sh
+# Create a virtual environment
+mkdir ~/myprojectenv
+python3 -m venv ~/myprojectenv
+
+# Activate the virtual environment
+source ~/myprojectenv/bin/activate
+
+# Install python-docx within the virtual environment
+pip install python-docx
+pip install openpyxl
+
+# Deactivate the virtual environment when done
+deactivate
+
